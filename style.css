@@ -1,0 +1,304 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 50px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+ul li a,
+ul li a i {
+    font-size: 12.5px !important;
+    margin: 0 10px;
+}
+
+ul li a i {
+    color: black;
+}
+
+.box {
+    display: flex;
+    width: 78%;
+    justify-content: space-around;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.box a {
+    text-decoration: none;
+}
+
+.box>i {
+    font-size: 16px;
+}
+
+.main-container {
+    background-image: url(./assets/images/iphone-1.png);
+    background-color: #f7f7f7;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 630px 310px;
+    width: 100%;
+    height: 100vh;
+    padding-top: 45px;
+}
+
+.main-container h1,
+.main-2 h1 {
+    font-size: 54px;
+}
+
+.main-container p,
+.main-2 p {
+    font-size: 29px;
+}
+
+.main-container button, .main-2 button {
+    font-size: 19px;
+    width: 140px;
+    border-radius: 60px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 5px 0;
+}
+
+p.gradient {
+    font-size: 21px !important;
+    font-weight: 500;
+    margin-top: 10px;
+    background: linear-gradient(25deg,rgba(0, 191, 255, 1) 4%, rgba(89, 106, 255, 1) 42%, rgba(176, 23, 255, 1) 49%, rgba(186, 46, 221, 1) 51%, rgba(255, 195, 0, 1) 63%);
+    background-clip: text;
+    color: transparent;
+    margin-top: 35px;
+}
+
+.main-2 {
+    background-image:
+        url(./assets/images/macbook\ air.png),
+        linear-gradient(0deg, rgba(247, 253, 255, 0.97) 0%, rgba(217, 229, 255, 1) 100%);
+
+    background-repeat: no-repeat;
+    background-position: center 75%;
+    background-size: 440px, cover;
+
+    text-align: center;
+    width: 100%;
+    height: 95vh;
+    padding-top: 45px;
+    margin-top: 15px;
+}
+/*................... main 2 ends here ............. */
+
+
+
+
+
+
+
+/*................  cards starts from here .......................... */
+.cards {
+    text-align: center;
+    height: 95vh;
+    padding-top: 45px;
+    margin-top: 15px;
+    background-color: #a88080;
+    background-repeat: no-repeat;
+}
+
+.cards h1 {
+    font-size: 40px;
+}
+
+.cards p {
+    font-size: 20px;
+}
+
+.cards .container button {
+    width: 90px;
+    font-size: 16px;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.cards p.gradient {
+    font-weight: normal;
+    font-size: 16px !important;
+    margin-top: 10px;
+}
+
+.c1 {
+    background-image: url(./assets/images/ipad.png);
+    background-position: center bottom;
+    background-size: 57%;
+    background-color: #000000;
+    color: #fff;
+}
+
+.c1 > .container {
+    margin-top: 25px;
+}
+
+.c1 p {
+    font-weight: 500;
+}
+
+.c2 {
+    background-image:
+        url(./assets/images/macbook\ air.png),
+        linear-gradient(0deg, rgba(247, 253, 255, 0.97) 0%, rgba(217, 229, 255, 1) 100%);
+        background-position: center 75%;
+        background-size: 460px, cover;
+        font-weight: 400;
+        position: relative;
+}
+
+.c2 .gradient {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+}
+
+.c2 p:nth-child(3) {
+    margin-top: -15px;
+}
+
+.c3 {
+    background-color: #ecebeb;
+    background-image: url(./assets/images/watch\ series\ 10.png);
+    background-size: 800px 310px;
+    background-position: center bottom;
+}
+
+.c3 h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c3 h1 i {
+    font-size: 35px;
+    margin-right: 10px;
+}
+
+.c3 p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: -5px;
+}
+
+.c3 p:nth-child(2) {
+    font-size: 16.5px;
+}
+
+.c3 .container {
+    margin-left: 5px;
+}
+
+.c4 {
+    background-image: url(./assets/images/airpods\ pro\ 2.png);
+    background-position: center bottom;
+    background-color: #000000;
+    background-size: 610px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 75px;
+}
+
+.c5 {
+    background-image: url(./assets/images/trade\ in.png);
+    background-position: center 85%;
+    background-size: 850px;
+    background-color: #ecebeb;
+}
+
+.c5 h1 {
+    margin-left: -50px;
+    font-weight: bolder;
+}
+
+.c5 p {
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.c5 .container button {
+    width: auto;
+    padding: 5px 10px;
+}
+
+.c6 {
+    background-image: url(./assets/images/Apple_Card-removebg-preview.png);
+    background-color: #FAFAFA;
+    background-position: center 85%;
+    background-size: 600px;
+}
+.c6 .container button {
+    width: auto;
+    padding: 5px 12px;
+}
+
+/*................... cards ends here ..................................... */
+
+
+
+.main-2 p:nth-of-type(1) {
+    margin-bottom: -8px;
+}
+
+p.m2-p {
+    margin-top: 250px;
+    background: linear-gradient(25deg,rgba(0, 191, 255, 1) 4%, rgba(89, 106, 255, 1) 42%, rgba(176, 23, 255, 1) 49%, rgba(186, 46, 221, 1) 51%, rgba(255, 195, 0, 1) 63%);
+    background-clip: text;
+    color: transparent;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.container-fluid marquee img {
+    height: 200px;
+    margin-right: 10px;
+}
+
+marquee {
+    margin-top: 15px;
+}
+
+
+/* ..................... footer starts from here ................  */
+footer {
+    background-color: #f3f6f8;
+    margin-top: 40px;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer {
+    padding: 3% 10%;
+    color: #989797;
+    /* font-size: 1px; */
+}
+
+footer p {
+    margin-bottom: 50px;
+    border-bottom: 1px solid #c4c4c4c1;
+    padding-bottom: 30px;
+}
